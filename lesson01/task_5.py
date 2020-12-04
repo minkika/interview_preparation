@@ -14,3 +14,23 @@
 chargable_deposit(10000, 24, 100)
 к концу срока: 13739.36
 """
+
+from task_4 import get_percent
+
+
+def chargable_deposit(amount, months, charge=0):
+    percent = get_percent(amount, months)
+    if not percent:
+        print('Нет подходящего тарифа')
+
+    total = amount
+    for month in range(months):
+        profit = total * percent / 100 / 12
+        total += profit
+        if month != 0 and month != months - 1:
+            total += charge + charge * percent / 100 / 12
+
+    print(round(total, 2))
+
+
+chargable_deposit(10000, 24, 100)
