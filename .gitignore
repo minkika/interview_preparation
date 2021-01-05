@@ -1,1 +1,7 @@
 .idea
+/lesson04/venv/
+/lesson04/db.sqlite3
+/lesson04/lesson04/env.json
+lesson04/lesson04/__pycache__
+lesson04/product/__pycache__
+lesson04/product/migrations/__pycache__/
