@@ -1,2 +1,14 @@
 .idea
-/lesson05/venv/
+/shop_project/venv/
+/shop_project/db.sqlite3
+/shop_project/lesson04/env.json
+shop_project/lesson04/__pycache__
+shop_project/product/__pycache__
+shop_project/product/migrations/__pycache__/
+/shop_project/templates_old/
+/shop_project/static_old/
+/lesson05/lesson05/env.json
+lesson05/venv
+lesson05/lesson05/__pycache__/
+lesson05/product/__pycache__/
+lesson05/product/migrations/__pycache__/
